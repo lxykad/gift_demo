@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="catogary_price">
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>18</item>
+        <item>28</item>
+        <item>68</item>
+
+    </string-array>
+
+    <integer-array name="catogary_resourceIds">
+        <item>@drawable/gift_red_packet</item>
+        <item>@drawable/gift_praise</item>
+        <item>@drawable/gift_gold</item>
+        <item>@drawable/gift_cat</item>
+        <item>@drawable/gift_fortune</item>
+        <item>@drawable/gift_toad</item>
+
+    </integer-array>
+
+    <string-array name="catogary_gift_name">
+        <item>红包</item>
+        <item>点赞</item>
+        <item>金元宝</item>
+        <item>招财猫</item>
+        <item>恭喜发财</item>
+        <item>金蟾</item>
+    </string-array>
+
+</resources>

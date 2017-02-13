@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#bb000000">
+
+    <cm.wzh.live.view.MyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#bb000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_pager">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/bg_radio"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/bg_radio"
+                android:button="@null" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/gift_coin"
+            android:drawablePadding="5dp"
+            android:text="99999"
+            android:textColor="#ffbff0"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
