@@ -104,6 +104,7 @@ public class GiftItemView extends LinearLayout {
         if (gift==null){
             return;
         }
+        System.out.println("gift========="+gift);
         giftNum = gift.num ;
         if (!TextUtils.isEmpty(gift.img)){
             Glide.with(getContext()).load(gift.img).placeholder(R.drawable.default_head).into(avatar);
@@ -131,6 +132,7 @@ public class GiftItemView extends LinearLayout {
         }
         handler.postDelayed(runnable, 3000);
     }
+
     Handler handler=new Handler();
     Runnable runnable=new Runnable() {
         @Override
